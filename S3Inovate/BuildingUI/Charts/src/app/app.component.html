@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><img src="/src/img/S3.png" /> S3 Inovate</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="row form-group">
+        <label class="col-md-4">Building</label>
+        <div class="col-md-8">
+          <select class="form-control" [(ngModel)] = "model.buildingselectedValue" name="buildingselectedValue">
+            <option value="0">Select Building</option>
+            <option value="1">Building 1 </option>
+            <option value="2">Building 2</option>
+
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="row form-group">
+        <label class="col-md-4">Object</label>
+        <div class="col-md-8">
+          <select class="form-control" [(ngModel)] = "model.objectselectedValue" name="objectselectedValue">
+            <option value="0">Select Object</option>
+            <option value="1">Object 1 </option>
+            <option value="2">Object 2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="row form-group">
+        <label class="col-md-4">DataField</label>
+        <div class="col-md-8">
+          <select class="form-control"  [(ngModel)] = "model.dataFieldselectedValue" name="dataFieldselectedValue">
+            <option value="0">Select DataField</option>
+            <option value="1">DataField 1 </option>
+            <option value="2">DataField 2</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-2">
+      <div class="row form-group">
+        <div class="col-md-8">
+      <mat-form-field  class="example-form-field" appearance="fill">
+          <mat-date-range-input [rangePicker] ="picker" [formGroup]="range">
+              <input matStartDate placeholder="start date" formControlName="start">
+              <input matEndDate placeholder="end date" formControlName="end">
+
+          </mat-date-range-input>
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-date-range-picker #picker></mat-date-range-picker>
+      </mat-form-field>
+    </div>
+    </div>
+    <button style="float: right;" class="btn btn-primary" (click) ="showChart()">Search</button>
+    </div>
+    
+  </div>
+  
+
+  <div class="row" *ngIf="chart">
+    <canvas id="canvas">{{chart}}</canvas>
+  </div>
+</div>
+<!-- <h1>{{range.value.start}}</h1>
+<h1>{{range.value.end}}</h1> -->
+</body>
+</html>
+<router-outlet></router-outlet>

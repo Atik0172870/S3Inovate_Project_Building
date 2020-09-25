@@ -1,0 +1,16 @@
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Service.deps.json
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Service.dll
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Service.pdb
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.DataContext.dll
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Domain.dll
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Repository.dll
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Domain.pdb
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.Repository.pdb
+D:\S3Inovation\Building_S3\Building\Building.Service\bin\Debug\netcoreapp2.2\Building.DataContext.pdb
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.csprojAssemblyReference.cache
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.csproj.CoreCompileInputs.cache
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.AssemblyInfoInputs.cache
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.AssemblyInfo.cs
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.csproj.CopyComplete
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.dll
+D:\S3Inovation\Building_S3\Building\Building.Service\obj\Debug\netcoreapp2.2\Building.Service.pdb

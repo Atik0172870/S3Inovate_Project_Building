@@ -1,0 +1,9 @@
+D:\S3Inovation\Building_S3\Building\Building.Domain\bin\Debug\netcoreapp2.2\Building.Domain.deps.json
+D:\S3Inovation\Building_S3\Building\Building.Domain\bin\Debug\netcoreapp2.2\Building.Domain.dll
+D:\S3Inovation\Building_S3\Building\Building.Domain\bin\Debug\netcoreapp2.2\Building.Domain.pdb
+D:\S3Inovation\Building_S3\Building\Building.Domain\obj\Debug\netcoreapp2.2\Building.Domain.csprojAssemblyReference.cache
+D:\S3Inovation\Building_S3\Building\Building.Domain\obj\Debug\netcoreapp2.2\Building.Domain.csproj.CoreCompileInputs.cache
+D:\S3Inovation\Building_S3\Building\Building.Domain\obj\Debug\netcoreapp2.2\Building.Domain.AssemblyInfoInputs.cache
+D:\S3Inovation\Building_S3\Building\Building.Domain\obj\Debug\netcoreapp2.2\Building.Domain.AssemblyInfo.cs
+D:\S3Inovation\Building_S3\Building\Building.Domain\obj\Debug\netcoreapp2.2\Building.Domain.dll
+D:\S3Inovation\Building_S3\Building\Building.Domain\obj\Debug\netcoreapp2.2\Building.Domain.pdb
